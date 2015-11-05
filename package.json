@@ -4,6 +4,7 @@
   "description": "This is a translation module to use with po-files",
   "version": "0.0.1",
   "private": true,
+  "main": "./i18n",
   "dependencies": {
     "async": "^1.4.2",
     "debug": "*",
