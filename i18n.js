@@ -278,8 +278,8 @@ i18n.getLocaleForLanguage = function (code) {
   }
 
   if (!locale) {
-    locale = defaultLocale;
-    logInfoFn('Using default locale because there is none matching the request\'s language "%s"', code);
+    locale = loadedLanguages[defaultLocale];
+    logDebugFn('Using default locale "' + defaultLocale + '" because there is none matching the request\'s language "%s"', code);
   }
 
   return locale;
