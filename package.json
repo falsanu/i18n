@@ -2,7 +2,7 @@
   "name": "i18n",
   "shortName": "i18n",
   "description": "This is a translation module to use with po-files",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "main": "./i18n",
   "dependencies": {
